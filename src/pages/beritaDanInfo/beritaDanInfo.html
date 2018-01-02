@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Berita dan Info Kampus</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-tabs>
+    <ion-tab [root]="tabBerita" tabTitle="Berita" tabIcon="paper" tabBadge="7" tabBadgeStyle="danger"></ion-tab>
+    <ion-tab [root]="tabInfo" tabTitle="Info" tabIcon="information-circle" tabBadge="4" tabBadgeStyle="danger"></ion-tab>
+  </ion-tabs>
+</ion-content>
